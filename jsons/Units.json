@@ -24,7 +24,7 @@
 		"strength": 4,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["No Movement Cost to Pillage"],
+		"uniques": ["No movement cost to pillage"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -188,7 +188,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["No Movement Cost to Pillage", "Withdraws before melee combat <with [50]% chance>"],
+		"uniques": ["No movement cost to pillage", "Withdraws before melee combat <with [50]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -202,7 +202,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "[Privateer] ability", "No Movement Cost to Pillage"],
+		"promotions": ["Coastal Raider I", "[Privateer] ability", "No movement cost to pillage"],
 		"attackSound": "cannon"
 	},
 	{
@@ -219,7 +219,7 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"promotions": ["No Movement Cost to Pillage"],
+		"promotions": ["No movement cost to pillage"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
@@ -230,7 +230,7 @@
 		"strength": 16,
 		"cost": 25,
 		"requiredTech": "Scientific Theory",
-		"uniques": ["No Movement Cost to Pillage"],
+		"uniques": ["No movement cost to pillage"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -244,7 +244,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["No Movement Cost to Pillage","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["No movement cost to pillage","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
