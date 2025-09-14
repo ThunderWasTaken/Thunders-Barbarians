@@ -268,9 +268,10 @@
 	},
 	{
 		"name": "Base Builder",
-		"unitType": "Civilian",
+		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
+		"strength": 10,
 		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>"],
 		"hurryCostModifier": 20
