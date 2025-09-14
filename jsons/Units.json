@@ -202,7 +202,8 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "[Privateer] ability", "No movement cost to pillage"],
+		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"uniques": ["No movement cost to pillage"],
 		"attackSound": "cannon"
 	},
 	{
@@ -219,7 +220,7 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"promotions": ["No movement cost to pillage"],
+		"uniques": ["No movement cost to pillage"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
