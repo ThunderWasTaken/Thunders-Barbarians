@@ -273,7 +273,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>"],
+		"uniques": ["Founds a new city <every [1] turns> <after which this unit is consumed>"],
 		"hurryCostModifier": 20
 	}
 ]
