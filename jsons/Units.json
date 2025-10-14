@@ -544,5 +544,71 @@
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Insurgent Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Barbarians",
+		"replaces": "Nuclear Submarine",
+		"movement": 5,
+		"strength": 40,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Mechanized Insurgent",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Mechanized Infantry",
+		"movement": 5,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Insurgent Cruiser",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Missile Cruiser",
+		"movement": 6,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Insurgency Battle Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Modern Armor",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Nuclear Mech",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Giant Death Robot",
+		"movement": 4,
+		"strength": 140,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"attackSound": "gdrAttack"
 	}
 ]
